@@ -23,6 +23,8 @@ namespace Demo.Core.Scripts.Presentation.LockConfirmation
             viewState.CloseButtonClicked
                 .Subscribe(_ => TransitionService.PopCommandExecuted())
                 .AddTo(this);
+
+            await Task.CompletedTask;
         }
     }
 }

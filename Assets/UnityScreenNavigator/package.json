@@ -1,15 +1,32 @@
 {
-  "name": "com.harumak.unityscreennavigator",
+  "name": "thanhdv.fork.harumak.unityscreennavigator",
   "displayName": "UnityScreenNavigator",
   "version": "1.7.5",
-  "unity": "2021.3",
-  "license": "MIT",
-  "dependencies": {
-  },
+  "description": "Library for screen transitions, transition animations, transition history stacking, and lifecycle management in Unity's uGUI.",
+  "unity": "2022.3",
+  "keywords": [
+    "Unity",
+    "uGUI",
+    "UI",
+    "ScreenTransition",
+    "Page",
+    "Modal",
+    "Sheet"
+  ],
   "author": {
     "name": "Haruki Yano",
     "url": "https://github.com/Haruma-K"
   },
-  "type": "tool",
-  "description": "Library for screen transitions, transition animations, transition history stacking, and lifecycle management in Unity's uGUI."
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThanhDV143/Fork.Lib.UnityScreenNavigator.git"
+  },
+  "documentationUrl": "https://github.com/ThanhDV143/Fork.Lib.UnityScreenNavigator/blob/master/README.md",
+  "changelogUrl": "",
+  "licensesUrl": "https://github.com/ThanhDV143/Fork.Lib.UnityScreenNavigator/blob/master/LICENSE.md",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://upm.thanhdv.com/"
+  }
 }
